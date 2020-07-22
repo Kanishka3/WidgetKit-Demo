@@ -1,18 +1,20 @@
 # WidgetKit-Demo
 
 
+## WidgetKit 101 
+
+
+
 ## Design 
 
 ### Styles Supported 
 
-
-![Design Demo](https://user-images.githubusercontent.com/27673762/88223349-f10afd00-cc84-11ea-8977-7bc408727d83.png)
-
-
+ ![Illustration of the design](https://user-images.githubusercontent.com/27673762/88238301-ecebd900-cc9e-11ea-9f3b-4d84c012083f.jpg)
 
 Important Notes: 
 - Widgets are meant to project important data from your app.
 - Widgets are not mini apps 
+- Widgets should not include the app name or app icon unless it is aggregator of content from some other source (example: News App) In the case you are using app icons, locate it on top right of your app.
 - Widgets should not have scrolling or animations.
 
 ## WidgetKit
