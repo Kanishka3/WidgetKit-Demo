@@ -3,12 +3,14 @@
 Index: 
 
 
-- [WidgetKit 101](#WidgetKit-101) 
+- [WidgetKit 101](#Widgets-101) 
 - [Widget Design](#Design) 
-- - [Styles Supported](#Styles-Supported)
+ - [Styles Supported](#Styles-Supported)
+- [WidgetKit](#WidgetKit)
+- [Smart Stacks Relevance](#Smart-Stacks-Relevance)
 
 
-## WidgetKit 101 
+## Widgets 101 
 
 ![Screenshot 2020-07-23 at 4 52 00 AM](https://user-images.githubusercontent.com/27673762/88239266-874d1c00-cca1-11ea-8241-f140c212dea0.png)
 
@@ -30,9 +32,10 @@ Important Notes:
 - Widgets should not have scrolling or animations.
 
 ## WidgetKit
-### Timeline Entry Relevance: Smart Stacks relevance 
-Smart Stacks is a new feature on iOS 14 which shows relevant Widget according time and utility. 
+### Smart Stacks Relevance 
 
+Smart Stacks is a new feature on iOS 14 which shows relevant Widget according time and utility. 
+The system can handle and predict how relevant a widget is on a smart smart stack using _Timeline Entry Relevance_.
 Quoting from documentation: 
 
 The range of the `scale` is entirely up to you and could be 1 to 100, 50 to 5000, or any other range of positive numbers that’s meaningful to you. WidgetKit calculates the relative difference of scores between entries, so the absolute values don’t matter.
