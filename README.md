@@ -3,9 +3,16 @@
 
 ## WidgetKit 101 
 
+![Screenshot 2020-07-23 at 4 52 00 AM](https://user-images.githubusercontent.com/27673762/88239266-874d1c00-cca1-11ea-8241-f140c212dea0.png)
+
+- Content projected should be relevant to user according time of the day 
+- Try to make sure that the widget supports different sizes and is customizable (can be done using intents)
+- Make it simple 
+- Remember, the widget stays on home screen, the place where user hangs for 5-10 seconds before they hop to some other app! 
 
 
 ## Design 
+
 
 ### Styles Supported 
 
