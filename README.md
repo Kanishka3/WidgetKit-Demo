@@ -5,7 +5,7 @@ Index:
 
 - [WidgetKit 101](#WidgetKit-101) 
 - [Widget Design](#Design) 
--- [Styles Supported](#Styles-Supported)
+- - [Styles Supported](#Styles-Supported)
 
 
 ## WidgetKit 101 
