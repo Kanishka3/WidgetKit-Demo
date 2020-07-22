@@ -1,7 +1,11 @@
 # WidgetKit-Demo
 
 Index: 
-[WidgetKit 101](#WidgetKit-101) ###
+
+
+- [WidgetKit 101](#WidgetKit-101) 
+- [Widget Design](#Design) 
+-- [Styles Supported](#Styles-Supported)
 
 
 ## WidgetKit 101 
@@ -15,8 +19,6 @@ Index:
 
 
 ## Design 
-
-
 ### Styles Supported 
 
  ![Illustration of the design](https://user-images.githubusercontent.com/27673762/88238301-ecebd900-cc9e-11ea-9f3b-4d84c012083f.jpg)
