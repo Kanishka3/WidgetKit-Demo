@@ -59,7 +59,7 @@ struct Quote_Widget: Widget {
  ```
  
  Along with StaticConfiguration, you also need an Entry, Provider and something like a Quote_WidgetDisplayName to use it. 
-**Entry:** : Consider is
+**Entry:** : Consider it is like data structure that you are going to use throughout your app. Your Entry should conform to `TimelineEntry` and include other data that you are going to use throughout the widget.(like the news headline for news app)
 
 
 ### Smart Stacks Relevance 
