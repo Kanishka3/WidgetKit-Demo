@@ -34,12 +34,12 @@ Important Notes:
 
 ## WidgetKit
 
+![Screenshot 2020-07-23 at 8 59 54 AM](https://user-images.githubusercontent.com/27673762/88249724-ee2efd00-ccc2-11ea-9ee3-a2c6deb9f19e.png)
+
 ### Static Configuration 
 ![configurationDisplayName(_Quote Widget_)](https://user-images.githubusercontent.com/27673762/88246872-7c9e8100-ccb9-11ea-823d-85bcf8b8891b.jpg)
  
  Static Configuration is the object which helps you configure the content shown in the widget. 
- 
- Here, the placeholder view is a view that displays a generic representation of the widget. WidgetKit shows this view on the lock screen, and before rendering the widget’s content. 
  
  It is used like this: 
  
@@ -60,9 +60,16 @@ struct Quote_Widget: Widget {
  
  Along with StaticConfiguration, you also need an Entry, Provider and something like a `Quote_WidgetDisplayName` to use it. 
  
-**Entry:** Consider it is like data structure that you are going to use throughout your app. Your Entry should conform to `TimelineEntry` and include other data that you are going to use throughout the widget.(like the news headline for news app)
+#### Entry
+
+Consider it is like data structure that you are going to use throughout your app. Your Entry should conform to `TimelineEntry` and include other data that you are going to use throughout the widget.(like the news headline for news app)
+
+
  
-**Provider:** Provider is the object which is going to tell the StaticConfiguration to update. So, here is where the snapshot and updating the time entries stuff goes.
+#### Provider: 
+Provider is the object which is going to tell the StaticConfiguration to update. Your provider should conform to `IntentTimelineProvider`.  So, here is where the snapshot and updating the time entries stuff goes.
+
+**Placeholder:** : The placeholder view is a view that displays a generic representation of the widget. WidgetKit shows this view on the lock screen, and before rendering the widget’s content. 
 
 
 ### Smart Stacks Relevance 
