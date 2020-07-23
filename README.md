@@ -36,7 +36,11 @@ Important Notes:
 ### Static Configuration 
 ![configurationDisplayName(_Quote Widget_)](https://user-images.githubusercontent.com/27673762/88246872-7c9e8100-ccb9-11ea-823d-85bcf8b8891b.jpg)
  
- Static Configuration is the object which helps you configure the content shown in the widget. It is used like this: 
+ Static Configuration is the object which helps you configure the content shown in the widget. 
+ 
+ Here, the placeholder view is a view that displays a generic representation of the widget. WidgetKit shows this view on the lock screen, and before rendering the widget’s content. 
+ 
+ It is used like this: 
  
  ```
 struct Quote_Widget: Widget {
