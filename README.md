@@ -7,7 +7,8 @@ Index:
 - [Widget Design](#Design) 
  - [Styles Supported](#Styles-Supported)
 - [WidgetKit](#WidgetKit)
-- [Smart Stacks Relevance](#Smart-Stacks-Relevance)
+ - [Static Configuration](#Static-Configuration)
+ - [Smart Stacks Relevance](#Smart-Stacks-Relevance)
 
 
 ## Widgets 101 
