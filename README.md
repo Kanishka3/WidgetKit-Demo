@@ -57,6 +57,9 @@ struct Quote_Widget: Widget {
     }
 }
  ```
+ 
+ Along with StaticConfiguration, you also need an Entry, Provider and something like a Quote_WidgetDisplayName to use it. 
+**Entry:** : Consider is
 
 
 ### Smart Stacks Relevance 
