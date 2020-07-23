@@ -43,7 +43,7 @@ Important Notes:
  
  It is used like this: 
  
- ```
+ ```swift
 struct Quote_Widget: Widget {
     public var body: some WidgetConfiguration {
         IntentConfiguration(kind: "Widget",
@@ -58,8 +58,11 @@ struct Quote_Widget: Widget {
 }
  ```
  
- Along with StaticConfiguration, you also need an Entry, Provider and something like a Quote_WidgetDisplayName to use it. 
-**Entry:** : Consider it is like data structure that you are going to use throughout your app. Your Entry should conform to `TimelineEntry` and include other data that you are going to use throughout the widget.(like the news headline for news app)
+ Along with StaticConfiguration, you also need an Entry, Provider and something like a `Quote_WidgetDisplayName` to use it. 
+ 
+**Entry:** Consider it is like data structure that you are going to use throughout your app. Your Entry should conform to `TimelineEntry` and include other data that you are going to use throughout the widget.(like the news headline for news app)
+ 
+**Provider:** Provider is the object which is going to tell the StaticConfiguration to update. So, here is where the snapshot and updating the time entries stuff goes.
 
 
 ### Smart Stacks Relevance 
