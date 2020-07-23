@@ -32,6 +32,28 @@ Important Notes:
 - Widgets should not have scrolling or animations.
 
 ## WidgetKit
+
+### Static Configuration 
+![configurationDisplayName(_Quote Widget_)](https://user-images.githubusercontent.com/27673762/88246872-7c9e8100-ccb9-11ea-823d-85bcf8b8891b.jpg)
+ 
+ Static Configuration is the object which helps you configure the content shown in the widget. It is used like this: 
+ 
+ ```
+struct Quote_Widget: Widget {
+    public var body: some WidgetConfiguration {
+        IntentConfiguration(kind: "Widget",
+                            intent: ConfigurationIntent.self,
+                            provider: Provider(),
+                            placeholder: PlaceholderView()) { entry in
+            Quote_WidgetEntryView(entry: entry)
+        }
+        .configurationDisplayName("The Name")
+        .description("....")
+    }
+}
+ ```
+
+
 ### Smart Stacks Relevance 
 
 Smart Stacks is a new feature on iOS 14 which shows relevant Widget according time and utility. 
