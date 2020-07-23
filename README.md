@@ -71,7 +71,11 @@ Consider it is like data structure that you are going to use throughout your app
 Provider is the object which is going to tell the StaticConfiguration to update. Your provider should conform to `IntentTimelineProvider`.  So, here is where the snapshot and updating the time entries stuff goes.
 
 
-#### Placholder The placeholder view is a view that displays a generic representation of the widget. WidgetKit shows this view on the lock screen, and before rendering the widget’s content. 
+#### Placholder 
+
+The placeholder view is a view that displays a generic representation of the widget. WidgetKit shows this view on the lock screen, and before rendering the widget’s content. 
+
+
 
 ### IntentConfiguration 
 
