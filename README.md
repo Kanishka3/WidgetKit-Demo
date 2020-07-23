@@ -8,6 +8,7 @@ Index:
   - [Styles Supported](#Styles-Supported)
 - [WidgetKit](#WidgetKit)
   - [Static Configuration](#Static-Configuration)
+  - [Intent Configuration](#Intent-Configuration)
   - [Smart Stacks Relevance](#Smart-Stacks-Relevance)
 
 
@@ -62,13 +63,23 @@ struct Quote_Widget: Widget {
  
 #### Entry
 
-Consider it is like data structure that you are going to use throughout your app. Your Entry should conform to `TimelineEntry` and include other data that you are going to use throughout the widget.(like the news headline for news app)
+Consider it is like data structure that you are going to use throughout your app. Your Entry should conform to `TimelineEntry` and include other data that you are going to use throughout the widget (like the news headline for news app). Like here, we need an entry like following: 
+
+ ```swift 
+
+struct SimpleEntry: TimelineEntry {
+    public let date: Date
+    public let text: String
+    public let relevance: TimelineEntryRelevance?
+}
 
 
- 
+```
+
 #### Provider
 
 Provider is the object which is going to tell the StaticConfiguration to update. Your provider should conform to `IntentTimelineProvider`.  So, here is where the snapshot and updating the time entries stuff goes.
+
 
 
 #### Placholder 
