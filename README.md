@@ -5,10 +5,10 @@ Index:
 
 - [WidgetKit 101](#Widgets-101) 
 - [Widget Design](#Design) 
- - [Styles Supported](#Styles-Supported)
+  - [Styles Supported](#Styles-Supported)
 - [WidgetKit](#WidgetKit)
- - [Static Configuration](#Static-Configuration)
- - [Smart Stacks Relevance](#Smart-Stacks-Relevance)
+  - [Static Configuration](#Static-Configuration)
+  - [Smart Stacks Relevance](#Smart-Stacks-Relevance)
 
 
 ## Widgets 101 
